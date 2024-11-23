@@ -24,7 +24,6 @@ html {
 .content {
   display: flex;
   align-items: flex-end;
-  position: absolute;
   gap: 30px;
   margin: 133px 30px;
 }
