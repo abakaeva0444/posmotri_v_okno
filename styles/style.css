@@ -169,12 +169,11 @@ html {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: "";
+  display: flex;
   width: 15px;
   height: 15px;
   background-color: rgba(255, 255, 255, 1);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  justify-self: center;
 }
 .search-form__label-text:focus {
   outline: none;
