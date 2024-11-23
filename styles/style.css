@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -21,9 +24,9 @@ html {
 .content {
   display: flex;
   align-items: flex-end;
+  position: absolute;
   gap: 30px;
   margin: 133px 30px;
-  
 }
 
 .search-form {
