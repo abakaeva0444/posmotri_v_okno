@@ -22,8 +22,8 @@ html {
   display: flex;
   align-items: flex-end;
   gap: 30px;
-  position: absolute;
   margin: 133px 30px;
+  
 }
 
 .search-form {
