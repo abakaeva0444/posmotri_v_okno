@@ -37,7 +37,6 @@ ol {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
- 
 }
 
 .content {
@@ -57,6 +56,8 @@ ol {
 .content__details {
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .result__video-container {
@@ -138,11 +139,10 @@ ol {
   line-height: 30px;
   text-transform: uppercase;
   overflow: hidden;
-  text-overflow: ellipsis; 
-  white-space: nowrap; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
   inline-size: 200px;
   max-inline-size: 100%;
-  
 }
 
 .content__video-card-description {
