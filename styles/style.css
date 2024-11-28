@@ -37,13 +37,14 @@ ol {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+ 
 }
 
 .content {
   display: flex;
   align-items: flex-end;
   gap: 30px;
-  inline-size: 1100px;
+  inline-size: 1140px;
 }
 
 .content__list {
@@ -137,7 +138,11 @@ ol {
   line-height: 30px;
   text-transform: uppercase;
   overflow: hidden;
-  max-width: 200px;
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+  inline-size: 200px;
+  max-inline-size: 100%;
+  
 }
 
 .content__video-card-description {
