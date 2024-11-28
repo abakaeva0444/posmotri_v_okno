@@ -71,7 +71,7 @@ ol {
 }
 
 .content__list-item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .content__video-card {
