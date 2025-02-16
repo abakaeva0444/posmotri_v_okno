@@ -1,6 +1,6 @@
 https://github.com/abakaeva0444/posmotri_v_okno.git
 
-# Проект:posmotri_v_okno
+# Проект: posmotri_v_okno
 
 
 ## Описание
